@@ -5,7 +5,8 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": "nodmeon server.js"
   },
   "author": "",
   "license": "ISC",
@@ -15,6 +16,6 @@
     "ejs": "^3.1.8",
     "express": "^4.18.1",
     "mongodb": "^4.7.0",
-    "nodemon": "^2.0.16"
+    "nodemon": "^2.0.18"
   }
 }
